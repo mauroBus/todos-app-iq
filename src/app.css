@@ -1,0 +1,9 @@
+@import "./styles/variables";
+
+.app {
+  color: var(--color-text-default);
+  margin: 0 auto;
+  min-width: 30rem;
+  max-width: 50rem;
+  padding: 0 1rem;
+}
