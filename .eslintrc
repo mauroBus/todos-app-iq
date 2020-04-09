@@ -1,13 +1,11 @@
 {
   "env": {
     "browser": true,
-    "jest/globals": true
   },
   "extends": [
     "standard",
     "standard-react",
     "plugin:format-message/recommended",
-    "plugin:jest/recommended",
     "plugin:prettier/recommended",
     "prettier/react",
     "prettier/standard"
@@ -16,15 +14,12 @@
   "plugins": [
     "format-message",
     "immutable",
-    "jest",
     "jsx-a11y",
     "react-hooks"
   ],
   "rules": {
     "immutable/no-mutation": "error",
     "import/no-named-default": "off",
-    "jest/no-disabled-tests": "error",
-    "jest/no-try-expect": "off",
     "jsx-a11y/accessible-emoji": "error",
     "jsx-a11y/alt-text": "error",
     "jsx-a11y/anchor-has-content": "error",
@@ -93,9 +88,6 @@
       "version": "16.3.2"
     },
     "import/resolver": {
-      # "jest": {
-      #   "jestConfigFile": "./jest/base-config.js"
-      # },
       "node": true,
       "eslint-import-resolver-typescript": true
     }
@@ -103,12 +95,6 @@
   "overrides": [
     {
       "files": ["webpack/**/*.js"],
-      "rules": {
-        "immutable/no-mutation": "off",
-      }
-    },
-    {
-      "files": ["**/*.test.js", "**/*.test.ts", "**/*.test.tsx"],
       "rules": {
         "immutable/no-mutation": "off",
       }
@@ -135,7 +121,7 @@
         "@typescript-eslint/no-useless-constructor": "error",
         "react/prop-types": "off"
       },
-      "plugins": ["@typescript-eslint", "format-message", "immutable", "jest"]
+      "plugins": ["@typescript-eslint", "format-message", "immutable"]
     }
   ]
 }
