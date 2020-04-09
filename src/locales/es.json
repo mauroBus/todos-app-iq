@@ -1,0 +1,26 @@
+{
+  "0_location_location_pathname_window_location_pathn_41962b2d": {
+    "message": "<0>{ location_location_pathname_window_location_pathname }</0>no es una pagina valida."
+  },
+  "are_you_lost_a976a3b3": {
+    "message": "Estas perdido?"
+  },
+  "current_user_randomly_selected_b340110a": {
+    "message": "(Usuario actual seleccionado aleatoriamente)"
+  },
+  "loading_page_56c6455e": {
+    "message": "Cargando contenido..."
+  },
+  "page_not_found_683da852": {
+    "message": "Página no encontrada"
+  },
+  "there_are_no_items_to_display_bf2af55c": {
+    "message": "No hay items para mostrar."
+  },
+  "we_ve_had_a_slight_malfunction_46473151": {
+    "message": "Hemos tenido un ligero mal funcionamiento"
+  },
+  "you_could_give_refreshing_your_page_a_shot_or_just_c06e6764": {
+    "message": "Podrías intentar actualizar tu página. O simplemente siéntate, y lo resolveremos."
+  }
+}
