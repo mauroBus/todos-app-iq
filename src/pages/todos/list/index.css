@@ -1,0 +1,11 @@
+
+.list {
+  max-height: 40rem;
+  overflow-y: auto;
+}
+
+.emptyCard {
+  margin: 0 auto;
+  text-align: center;
+  width: 20rem;
+}

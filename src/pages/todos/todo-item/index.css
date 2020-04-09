@@ -1,0 +1,29 @@
+@import "../../../styles/variables";
+
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.body {
+  color: var(--blue-grey);
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.creatorWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.avatar {
+  margin-right: 0.4rem;
+}
